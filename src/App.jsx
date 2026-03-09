@@ -7,7 +7,10 @@ function App() {
   return (
     <>
      <Navbar/>
-     <HeroSection />
+     <div className="max-w-7xl max-auto pt-20 px-20">
+      <HeroSection />
+     </div>
+     
     </>
   )
 }
